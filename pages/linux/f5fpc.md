@@ -4,20 +4,20 @@
 
 - Open a new VPN connection:
 
-`sudo f5fpc --start`
+`f5fpc --start`
 
 - Open a new VPN connection to a specific host:
 
-`sudo f5fpc --start --host {{host.example.com}}`
+`f5fpc --start --host {{host.example.com}}`
 
 - Specify a username (user will be prompted for a password):
 
-`sudo f5fpc --start --host {{host.example.com}} --username {{user}}`
+`f5fpc --start --host {{host.example.com}} --username {{user}}`
 
 - Show the current VPN status:
 
-`sudo f5fpc --info`
+`f5fpc --info`
 
 - Shutdown the VPN connection:
 
-`sudo f5fpc --stop`
+`f5fpc --stop`

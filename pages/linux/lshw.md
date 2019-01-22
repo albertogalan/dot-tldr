@@ -17,3 +17,7 @@
 - Save all network interfaces to an HTML file:
 
 `sudo lshw -class network -html > {{interfaces.html}}`
+
+- Identify the name of the graphics card driver
+
+`sudo lshw -c video | grep configuration`

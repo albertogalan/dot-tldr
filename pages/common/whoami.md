@@ -1,11 +1,7 @@
 # whoami
 
-> Print the username associated with the current effective user ID.
+> Show the username of the current user.
 
-- Display currently logged username:
+- Display currently logged user name:
 
 `whoami`
-
-- Display the username after a change in the user ID:
-
-`sudo whoami`

@@ -8,7 +8,7 @@
 
 - See the members of a group:
 
-`getent group {{group_name}}`
+`getenet group {{group_name}}`
 
 - Get list of all services:
 

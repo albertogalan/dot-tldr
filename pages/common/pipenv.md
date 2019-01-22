@@ -26,7 +26,3 @@
 - Start a shell within the created virtual environment:
 
 `pipenv shell`
-
-- Generate a requirements.txt for a project:
-
-`pipenv lock --requirements`

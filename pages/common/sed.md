@@ -18,10 +18,6 @@
 
 `sed '/{{line_pattern}}/s/{{find}}/{{replace}}/' {{filename}}`
 
-- Delete lines matching the line pattern:
-
-`sed '/{{line_pattern}}/d' {{filename}}`
-
 - Print only text between n-th line till the next empty line:
 
 `sed -n '{{line_number}},/^$/p' {{filename}}`

@@ -2,22 +2,22 @@
 
 > Control the system time and date.
 
-- Check the current system clock time:
+- To check the current system clock time:
 
 `timedatectl`
 
-- Set the local time of the system clock directly:
+- To set the local time of the system clock directly:
 
 `timedatectl set-time {{"yyyy-MM-dd hh:mm:ss"}}`
 
-- List available timezones:
+- To list available timezones:
 
 `timedatectl list-timezones`
 
-- Set the system timezone:
+- To change timezones:
 
 `timedatectl set-timezone {{timezone}}`
 
-- Enable Network Time Protocol (NTP) synchronization:
+- To enable Network Time Protocol (NTP) syncing:
 
 `timedatectl set-ntp on`

@@ -21,7 +21,3 @@
 - Ping host and ring the bell when a packet is received (if your terminal supports it):
 
 `ping -a {{host}}`
-
-- Also display a message if no response was received:
-
-`ping -O {{host}}`

@@ -18,10 +18,6 @@
 
 `svn ci -m {{commit log message}} {{[PATH...]}}`
 
-- Display changes from the last 10 revisions, showing modified files for each revision:
-
-`svn log -vl {{10}}`
-
 - Show detailed help:
 
 `svn help`

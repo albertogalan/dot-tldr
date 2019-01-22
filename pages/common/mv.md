@@ -10,13 +10,9 @@
 
 `mv -f {{source}} {{target}}`
 
-- Prompt for confirmation before overwriting existing files, regardless of file permissions:
+- Do not prompt for confirmation before overwriting existing files but write to standard error before overriding:
 
-`mv -i {{source}} {{target}}`
-
-- Do not overwrite existing files at the target:
-
-`mv -n {{source}} {{target}}`
+`mv -fi {{source}} {{target}}`
 
 - Move files in verbose mode, showing files after they are moved:
 

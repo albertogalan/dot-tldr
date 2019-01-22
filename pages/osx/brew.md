@@ -2,7 +2,7 @@
 
 > Package manager for macOS.
 
-- Search for available formulas and casks:
+- Search for available formulas:
 
 `brew search {{text}}`
 
@@ -22,9 +22,9 @@
 
 `brew update`
 
-- Remove old versions of installed formulae (if no formula name is given, all installed formulae are processed):
+- Show formulae that have a more recent version available:
 
-`brew cleanup {{formula}}`
+`brew outdated`
 
 - Display information about a formula (version, installation path, dependencies, etc.):
 

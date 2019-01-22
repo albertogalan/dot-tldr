@@ -14,7 +14,7 @@
 
 `dig {{hostname.com}} ANY`
 
-- Specify an alternate DNS server to query:
+- Specify an alternate DNS server to query (8.8.8.8 is google's public DNS):
 
 `dig @{{8.8.8.8}} {{hostname.com}}`
 
@@ -29,3 +29,11 @@
 - Perform iterative queries and display the entire trace path to resolve a domain name:
 
 `dig +trace {{hostname.com}}`
+
+- other
+
+`cat test.txt | xargs -i dig +noadditional +noquestion +nocomments +nocmd +nostats {}. @208.67.222.222`
+
+- other
+
+`https://www.digwebinterface.com/`

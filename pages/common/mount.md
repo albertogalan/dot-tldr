@@ -21,3 +21,7 @@
 - Mount a specific filesystem described in /etc/fstab (e.g. "/dev/sda1 /my_drive ext2 defaults 0 2"):
 
 `mount {{/my_drive}}`
+
+- Without size its mounted half of the RAM available on system #mount in permanently in fstab`
+
+`mount -t tmpfs -o size=100M,mode=0755 tmpfs  /var/www/www.example.com/cache 

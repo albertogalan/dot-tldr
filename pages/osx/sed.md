@@ -1,6 +1,6 @@
 # sed
 
-> Edit text in a scriptable manner.
+> Run replacements based on regular expressions.
 
 - Replace the first occurrence of a string in a file, and print the result:
 
@@ -17,10 +17,6 @@
 - Replace only on lines matching the line pattern:
 
 `sed '/{{line_pattern}}/s/{{find}}/{{replace}}/' {{filename}}`
-
-- Print only text between n-th line till the next empty line:
-
-`sed -n '{{line_number}},/^$/p' {{filename}}`
 
 - Apply multiple find-replace expressions to a file:
 

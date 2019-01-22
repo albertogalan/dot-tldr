@@ -11,10 +11,6 @@
 
 `atom -n {{path/to/file_or_folder}}`
 
-- Open a file or folder in an existing window:
-
-`atom --add {{path/to/file_or_folder}}`
-
 - Open atom in safe mode (does not load any additional packages):
 
 `atom --safe`

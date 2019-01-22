@@ -10,18 +10,10 @@
 
 `python {{script.py}}`
 
-- Execute script as part of an interactive shell:
+- Execute Python language single command:
 
-`python -i {{script.py}}`
-
-- Execute a Python expression:
-
-`python -c "{{expression}}"`
+`python -c {{command}}`
 
 - Run library module as a script (terminates option list):
 
 `python -m {{module}} {{arguments}}`
-
-- Interactively debug a Python script:
-
-`python -m pdb {{script.py}}`

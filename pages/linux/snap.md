@@ -11,10 +11,6 @@
 
 `snap install {{package_name}}`
 
-- Update all packages:
-
-`snap refresh`
-
 - Display basic information about installed snap software:
 
 `snap list`

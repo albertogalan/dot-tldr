@@ -17,3 +17,6 @@
 - Search multiple directories, one recursively:
 
 `fdupes {{directory1}} -R {{directory2}}`
+
+- Delete duplicates 
+`fdupes -rdN  {{directory}}`

@@ -2,21 +2,13 @@
 
 > Share messages and files on the same network.
 
-- Wait for message and display when received:
-
-`airpaste`
-
-- Send text:
-
-`echo {{text}} | airpaste`
-
 - Send file:
 
-`airpaste < {{path/to/file}}`
+`airpaste < {{file.txt}}`
 
 - Receive file:
 
-`airpaste > {{path/to/file}}`
+`airpaste > {{file.txt}}`
 
 - Create/Join channel:
 

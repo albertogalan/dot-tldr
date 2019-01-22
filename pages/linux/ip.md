@@ -10,10 +10,6 @@
 
 `ip r`
 
-- Show neighbors (ARP table):
-
-`ip n`
-
 - Make an interface up/down:
 
 `ip link set {{interface}} up/down`

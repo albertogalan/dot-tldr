@@ -6,14 +6,6 @@
 
 `nmcli connection`
 
-- Print the available Wi-Fi access points:
-
-`nmcli device wifi`
-
-- Connect to the Wi-Fi network with a specified name and password:
-
-`nmcli device wifi connect {{name}} {{password}}`
-
 - Activate a connection by specifying an uuid:
 
 `nmcli connection up uuid {{uuid}}`
@@ -25,3 +17,25 @@
 - Print statuses of network interfaces:
 
 `nmcli device status`
+
+
+- Connect to a network
+
+`nmcli device wifi rescan;nmcli device wifi list;nmcli device wifi connect 'Agora Space' password 'getstuffdone'`
+
+- Activate hotstop
+
+`nmcli device wifi hotspot ifname wlx00c0ca663eb3 con-name {{conname}} ssid agalan; password {{password}};nmcli connection show; nmcli  con up  {{conname}}`
+
+- Delete a wifi connection
+
+`nmcli con delete Wifi`
+
+- Edit
+
+`nmcli con edit xxxx;print`
+
+- examples
+
+`https://developer.gnome.org/NetworkManager/stable/nmcli.html`
+`https://people.freedesktop.org/~lkundrak/nm-docs/nmcli-examples.html`

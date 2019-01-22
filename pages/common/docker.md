@@ -4,32 +4,32 @@
 
 - List currently running docker containers:
 
-`docker ps`
+`docker container ls`
 
 - List all docker containers (running and stopped):
 
-`docker ps -a`
+`docker container ls -a`
 
-- Start a container from an image, with a custom name:
+- Start a container:
 
-`docker run --name {{container_name}} {{image}}`
+`docker container start {{container}}`
 
-- Start or stop an existing container:
+- Stop a container:
 
-`docker {{start|stop}} {{container_name}}`
+`docker container stop {{container}}`
 
-- Pull an image from a docker registry:
+- Start a container from an image and get a shell inside of it:
 
-`docker pull {{image}}`
+`docker container run -it {{image}} bash`
 
-- Open a shell inside of an already running container:
+- Run a command inside of an already running container:
 
-`docker exec -it {{container_name}} {{sh}}`
+`docker container exec {{container}} {{command}}`
 
 - Remove a stopped container:
 
-`docker rm {{container_name}}`
+`docker container rm {{container}}`
 
 - Fetch and follow the logs of a container:
 
-`docker logs -f {{container_name}}`
+`docker container logs -f {{container}}`

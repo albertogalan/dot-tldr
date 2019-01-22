@@ -18,11 +18,7 @@
 
 `git log --stat`
 
-- Show a graph of commits in the current branch:
-
-`git log --graph`
-
-- Show a graph of all commits, tags and branches in the entire repo:
+- Show all commits, tags and branches for the entire repo in a graph format:
 
 `git log --oneline --decorate --all --graph`
 

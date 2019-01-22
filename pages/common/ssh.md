@@ -34,3 +34,11 @@
 - Agent forwarding: Forward the authentication information to the remote machine (see `man ssh_config` for available options):
 
 `ssh -A {{username}}@{{remote_host}}`
+
+- Connect through sockets
+
+`ssh tornae.com -D 29828 -f -C -q -N`
+
+- Create a ssh and vpn
+
+`sudo sshuttle --dns -r tornae.com 0.0.0.0/0`

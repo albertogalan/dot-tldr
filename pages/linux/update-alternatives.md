@@ -17,7 +17,3 @@
 - Display information about a specified command:
 
 `update-alternatives --display {{java}}`
-
-- Display all commands and their current selection:
-
-`update-alternatives --get-selections`

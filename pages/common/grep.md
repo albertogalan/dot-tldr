@@ -34,3 +34,7 @@
 - Invert match for excluding specific strings:
 
 `grep -v {{search_string}}`
+
+- Search any file around the text
+
+`grep -riEo  '{0,20}{{search_string}}.{0,60}'`

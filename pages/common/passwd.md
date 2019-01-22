@@ -4,11 +4,11 @@
 
 - Change the password of the current user:
 
-`passwd {{new_password}}`
+`passwd {{new password}}`
 
 - Change the password of the specified user:
 
-`passwd {{username}} {{new_password}}`
+`passwd {{username}} {{new password}}`
 
 - Get the current status of the user:
 
