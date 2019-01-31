@@ -29,3 +29,8 @@
 - Mostra una lista dei dispositivi connessi:
 
 `adb devices`
+- backup one app
+
+adb backup -f net.mx17.overridedns.ab -noapk net.mx17.overridedns
+
+
