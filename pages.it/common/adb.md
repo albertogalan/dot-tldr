@@ -34,3 +34,18 @@
 adb backup -f net.mx17.overridedns.ab -noapk net.mx17.overridedns
 
 
+- List all packages
+
+adb shell pm list package -f
+
+
+- List packages
+
+adb shell cmd package list packages
+
+
+- Restore file
+
+adb restore {{file.ab}}
+
+
