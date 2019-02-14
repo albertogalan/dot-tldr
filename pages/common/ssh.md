@@ -47,3 +47,8 @@
 
 `sudo sshuttle --dns -r tornae.com 0.0.0.0/0`
 
+- Execute a bash command remotely
+
+`ssh {{host}} bash -s < script.sh`
+
+
