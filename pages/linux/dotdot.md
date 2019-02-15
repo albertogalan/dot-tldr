@@ -8,10 +8,10 @@ dotdot xxx
 
 - Manage profile config files
 `https://github.com/Snaipe/dot-git`
-`dot profile add x11`
-`dot profile x11 add .xinitrc .Xresources`
-`dot profile x11 commit -m "added my xorg configuration"`
-`dot push origin dot-x11`
+`dot profile add basic2`
+`dot profile basic2 add .xinitrc .Xresources`
+`dot profile basic2 commit -m "added my xorg configuration"`
+`dot push origin dot-basic2`
 
 
 
