@@ -9,3 +9,8 @@
 - Execute a command forever once every second:
 
 `while :; do {{command}}; sleep 1; done`
+- Read lines from file
+
+`while read f; do echo $f ; done < {file} `
+
+

@@ -21,3 +21,8 @@
 - Find pattern on files that match a specific glob in the current directory recursively:
 
 `pdfgrep --recursive --include {{'*book.pdf'}} {{pattern}}`
+- aa
+
+pdfgrep -i "Fatima Alves" *.pdf  cut -d: -f1
+
+

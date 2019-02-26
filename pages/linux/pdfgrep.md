@@ -21,3 +21,13 @@
 - Find pattern on files that match a specific glob in the current directory recursively:
 
 `pdfgrep --recursive --include {{'*book.pdf'}} {{pattern}}`
+- Display only files
+
+pdfgrep -i alta ten
+
+
+- Display files 
+
+pdfgrep -i {search} *.pdf | cut -d: -f1
+
+
