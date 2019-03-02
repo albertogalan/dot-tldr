@@ -13,3 +13,9 @@
 - View help contents:
 
 `npx --help`
+
+- initialize json database server
+
+`npx json-server --watch db.json`
+
+
