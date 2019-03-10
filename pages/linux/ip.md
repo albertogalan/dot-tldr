@@ -21,3 +21,8 @@
 - Add a default route:
 
 `ip route add default via {{ip}} dev {{interface}}`
+- list all routes
+
+`ip route list table all`
+
+

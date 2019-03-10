@@ -30,3 +30,8 @@
 - Take a snapshot of a container:
 
 `lxc snapshot [{{remote}}:]{{container}} {{snapshot}}`
+- port forwarding
+
+`lxc config device add mycontainer myport80 proxy listen=tcp:0.0.0.0:80 connect=tcp:localhost:80`
+
+

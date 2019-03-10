@@ -53,3 +53,32 @@
 `ssh {{host}} bash -s < script.sh`
 
 
+- An ssh tunnuel via multiple hops
+
+`ssh http://serverfault.com/questions/287059/multiple-hops-tunnels-howto`
+`Host internal.hostname.tld internal`
+`User          merdely`
+`  HostName      internal.hostname.tld`
+`  ProxyCommand  ssh merdely@gateway.hostname.tld nc %h %p 2> /dev/null`
+``
+``
+`Host cont1.lxc internal`
+`  User          cbunker`
+`  HostName      cont1.lxc`
+`  ProxyCommand  ssh merdely@gateway.hostname.tld nc %h %p 2> /dev/null`
+
+- An ssh tunnuel via two servers
+
+`Host u0`
+`HostName {{host}}`
+
+`Host u1`
+` ProxyCommand ssh -q u0 nc -q0 %h 22`
+
+`Host u2`
+` ProxyCommand ssh -q u1 nc -q0 %h 22`
+
+`Host u3`
+` ProxyCommand ssh -q u2 nc -q0 %h 22`
+
+

@@ -21,3 +21,6 @@
 - Start telnet with "x" as the session termination character:
 
 `telnet -e {{x}} {{ip_address}} {{port}}`
+
+- More about telnet
+`https://www.ict.tuwien.ac.at/lva/384.081/datacom/A2-Standard_Applications_v6-0.pdf`

@@ -30,3 +30,11 @@
 - Perform TLS cipher scan against a host to determine supported ciphers and SSL/TLS protocols:
 
 `nmap --script ssl-enum-ciphers {{address_or_addresses}} -p 443`
+
+- Scan even device with firewall
+`nmap 202.185.0.1-255 nmap -PR -oN nmap-arpscan.txt 192.168.0.0/16 `
+- Scan from file
+`nmap -iL test.txt`
+- Skip port detection
+`nmap -sP {{IPs}}`
+
