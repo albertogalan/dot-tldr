@@ -13,3 +13,8 @@
 - Switch to user {{username}} and simulate a full login shell:
 
 `su - {{username}}`
+- execute command with a specific user
+
+`su {{user}} -c {{command}}`
+
+
