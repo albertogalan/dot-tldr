@@ -25,3 +25,8 @@
 - Play a file using a profile defined in the `mpv.conf` file:
 
 `mpv --profile {{profile_name}} {{file}}`
+- Other options
+
+`mpv http://manpages.ubuntu.com/manpages/trusty/man1/mpv.1.html`
+
+

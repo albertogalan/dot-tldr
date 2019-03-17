@@ -23,11 +23,11 @@
 `pdfgrep --recursive --include {{'*book.pdf'}} {{pattern}}`
 - Display only files
 
-pdfgrep -i alta ten
+`pdfgrep -i alta ten`
 
 
 - Display files 
 
-pdfgrep -i {search} *.pdf | cut -d: -f1
+`pdfgrep -i {search} *.pdf | cut -d: -f1`
 
 

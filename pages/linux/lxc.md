@@ -35,3 +35,13 @@
 `lxc config device add mycontainer myport80 proxy listen=tcp:0.0.0.0:80 connect=tcp:localhost:80`
 
 
+- Turning a container into an image
+
+`lxc publish {{container}} --alias {{image}}`
+
+
+- Turn a past conatiner snapshot into a new image
+
+`lxc publish {{container/xx-snapshot}} --alias {{image}}`
+
+

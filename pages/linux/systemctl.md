@@ -28,4 +28,4 @@
 
 - List units
 
-`systemctl list-unit`
+`systemctl list-units`

@@ -33,3 +33,13 @@
 `git commit --amend`
 
 
+- Rever uncommitd changes only to particular file or directory
+
+`git checkout {file}`
+
+
+- Revert all uncommited changes
+
+`git reset --hard HEAD`
+
+
