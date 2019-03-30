@@ -43,3 +43,16 @@
 `git reset --hard HEAD`
 
 
+- Mirroring a repository
+
+`git clone --bare https://github.com/albertogalan/dot-git`
+`cd dot-git`
+`git clone --mirror https://github.com/albertogalan/newrepo`
+
+
+
+- Add remote to an existing git repository
+
+`git remote add origin git@github.com:albertogalan/dotgitnew.git`
+
+
