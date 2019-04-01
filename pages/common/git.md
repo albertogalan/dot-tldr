@@ -56,3 +56,8 @@
 `git remote add origin git@github.com:albertogalan/dotgitnew.git`
 
 
+- Squash commits and change the subject
+
+`git rebase -i HEAD~3`
+
+
