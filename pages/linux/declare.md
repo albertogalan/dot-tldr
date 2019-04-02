@@ -6,3 +6,8 @@
 `declare -f `
 
 
+- List commands that a shell knows
+
+`compgen`
+
+
