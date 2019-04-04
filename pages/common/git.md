@@ -61,3 +61,10 @@
 `git rebase -i HEAD~3`
 
 
+- Working with submodules
+
+`git submodule add http://github.com/albertogalan/repository`
+`git submodule init`
+`git submodule update`
+
+
