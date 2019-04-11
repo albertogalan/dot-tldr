@@ -29,3 +29,8 @@
 - List units
 
 `systemctl list-units`
+- list of service running
+
+`systemctl list-unit-files grep enable runnin`
+
+
