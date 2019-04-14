@@ -1,0 +1,6 @@
+
+- Search all commands
+
+`compgen`
+
+
