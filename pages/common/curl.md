@@ -34,3 +34,11 @@
 - Pass client certificate and key for a resource, skipping certificate validation:
 
 `curl --cert {{client.pem}} --key {{key.pem}} --insecure {{https://example.com}}`
+- Delete request
+
+`curl -X DELETE http://localhost:3003/lists/1`
+
+`curl -X POST http://localhost:3003/lists -d "p1=v1&p2=v2"`
+`curl -X POST http://localhost:3003/lists -d @data.json`
+
+
