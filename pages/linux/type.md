@@ -4,3 +4,8 @@
 `compgen`
 
 
+- See all functions with content
+
+`declare -f`
+
+
