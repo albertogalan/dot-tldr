@@ -68,3 +68,9 @@
 `git submodule update`
 
 
+- Add credentials and store
+
+`git config credential.helper store`
+`git help credential`
+
+
