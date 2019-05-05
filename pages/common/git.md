@@ -74,3 +74,19 @@
 `git help credential`
 
 
+- Create a Feature Branch and worktree
+
+git worktree
+`cd ~/Demo/myproject`
+`git checkout master`
+`git branch feature-24601`
+`git worktree add ../myproject-24601 feature-24601`
+`cd ../myproject-24601`
+`git status`
+
+- Cleaning up repository
+
+`rm -rf ../myproject-24601`
+`git worktree prune`
+
+
