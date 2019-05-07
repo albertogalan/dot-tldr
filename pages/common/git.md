@@ -90,3 +90,8 @@ git worktree
 `git worktree prune`
 
 
+- Git aliases
+
+`git config --global alias.add-commit !git add -A && git commit`
+
+
