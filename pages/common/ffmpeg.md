@@ -33,3 +33,8 @@
 - Convert MP4 video to VP9 codec. For the best quality, use a CRF value (recommended range 15-35) and -b:video MUST be 0:
 
 `ffmpeg -i {{input_video}}.mp4 -codec:video libvpx-vp9 -crf {{30}} -b:video 0 -codec:audio libopus -vbr on -threads {{number_of_threads}} {{output_video}}.webm`
+- Reduce vide frame size by 2
+
+`ffmpeg -i input.mkv -vf scale=iw/2:ih/2 output.mkv`
+
+
