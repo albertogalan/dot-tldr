@@ -21,3 +21,8 @@
 - Find out which package owns a file:
 
 `dpkg -S {{file_name}}`
+- examples of using dpkg
+
+`dpkg https://www.tecmint.com/dpkg-command-examples/`
+
+
