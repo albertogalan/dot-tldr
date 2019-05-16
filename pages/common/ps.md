@@ -25,3 +25,13 @@
 - Get the parent pid of a process:
 
 `ps -o ppid= -p {{pid}}`
+- See PID Process command
+
+`ps -p 25244 -F`
+
+
+- Find Process from port
+`sudo lsof -i :{port}`
+`ps -aux | grep {process}`
+
+`ps -p port -o comm=`

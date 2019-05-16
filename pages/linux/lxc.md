@@ -45,3 +45,15 @@
 `lxc publish {{container/xx-snapshot}} --alias {{image}}`
 
 
+- creating docker container , makes priviledge
+`lxc config set nestc1 security.nesting true`
+`lxc config set nestc1 security.privileged true`
+`sudo apt install docker.io`
+
+- Push a file into container
+`lxc image export ubuntu18`
+`lxc file push file path/file`
+- in the container
+`lxc file import file path/file`
+
+
