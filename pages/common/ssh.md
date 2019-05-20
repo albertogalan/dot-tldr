@@ -36,7 +36,7 @@
 
 `ssh -A {{username}}@{{remote_host}}`
 - Add identity key to agent
-
+`eval $(ssh-agent)`  
 `ssh-add /home/agalan/.ssh/id_rsa`
 
 
