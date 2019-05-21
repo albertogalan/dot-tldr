@@ -32,13 +32,9 @@
 
 `ssh -J {{username}}@{{jump_host}} {{username}}@{{remote_host}}`
 
-- Agent forwarding to the remote machine (see man ssh_config for available options):
-
+- Add identity key to agent and Forward to machine
+`eval $(ssh-agent); ssh-add /home/agalan/.ssh/id_rsa`
 `ssh -A {{username}}@{{remote_host}}`
-- Add identity key to agent
-`eval $(ssh-agent)`  
-`ssh-add /home/agalan/.ssh/id_rsa`
-
 
 - Connect through sockets
 

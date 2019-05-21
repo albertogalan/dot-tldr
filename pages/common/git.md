@@ -95,3 +95,11 @@ git worktree
 `git config --global alias.add-commit !git add -A && git commit`
 
 
+- Merge actual branch into master (git fetch + git fetch) , with preferences of our branch
+
+`git pull -s recursive -X ours origin master`
+
+- Merge 
+`git merge master`
+`vim file;git diff file;git add file`
+`git push`
