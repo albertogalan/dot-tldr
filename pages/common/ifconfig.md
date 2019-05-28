@@ -21,3 +21,8 @@
 - Assign IP address to eth0 interface:
 
 `ifconfig eth0 {{ip_address}}`
+- Disable interface
+
+`ifconfig eno1 down`
+
+

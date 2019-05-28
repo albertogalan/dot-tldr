@@ -26,3 +26,8 @@
 `ip route list table all`
 
 
+- up an interface
+
+`ip link set dev eno1 up`
+
+

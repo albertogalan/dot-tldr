@@ -25,3 +25,10 @@
 - Permanently destroy an app:
 
 `heroku destroy --app {{app_name}}`
+
+
+- create appname
+
+`heroku apps:create juice-shop999`
+
+

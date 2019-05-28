@@ -38,3 +38,8 @@
 - Skip port detection
 `nmap -sP {{IPs}}`
 
+- Scan a port in a network
+
+`nmap -p 8443 10.1.0.0/24`
+
+

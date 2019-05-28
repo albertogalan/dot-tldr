@@ -17,3 +17,8 @@
 - Scan an IP network with a custom net mask:
 
 `arp-scan {{10.0.0.0}}:{{255.255.255.0}}`
+- scan ip and mac address / if want vendor name also with get-oui
+`get-oui`
+`arp-scan -l`
+
+
