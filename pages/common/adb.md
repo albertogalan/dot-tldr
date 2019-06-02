@@ -46,3 +46,12 @@
 `adb restore {{file.ab}}`
 
 
+- log phone
+
+`adb logcat`
+
+- package download and examine
+`adb shell pm list {package}`
+`adb shell pm path {package}`
+`adb pull {path}`
+`qark --apk base.apk`

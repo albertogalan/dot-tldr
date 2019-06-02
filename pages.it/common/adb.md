@@ -49,3 +49,8 @@ adb shell cmd package list packages
 adb restore {{file.ab}}
 
 
+- log phone
+
+adb logcat
+
+

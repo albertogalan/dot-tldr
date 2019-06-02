@@ -39,3 +39,8 @@
 
 `https://developer.gnome.org/NetworkManager/stable/nmcli.html`
 `https://people.freedesktop.org/~lkundrak/nm-docs/nmcli-examples.html`
+- Show dns server IP
+
+`nmcli device show wlp1s0`
+
+
