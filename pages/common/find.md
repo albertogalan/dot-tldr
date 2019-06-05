@@ -36,3 +36,8 @@
 
 - Find and execute a shell command
  `find {{root_path}} -name '{{*.txt}}' -exec ls {} \;`
+- find file and grep into it
+
+`find ./ -name *md -exec grep -Hin logic /home/agalan/.tldr/tldr/pages/common/find.md ;`
+
+

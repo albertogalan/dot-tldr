@@ -17,3 +17,8 @@
 - Display line numbers with the list of lines:
 
 `find {{string}} {{path/to/file_or_directory}} /n`
+- find file and grep into it
+
+find ./ -name *md -exec grep -Hin logic /home/agalan/.tldr/tldr/pages/windows/find.md ;
+
+
