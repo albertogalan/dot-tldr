@@ -38,3 +38,8 @@
 - Search any file around the text
 
 `grep -riEo  '{0,20}{{search_string}}.{0,60}'`
+- Search in a log directory
+
+`grep -rsh {keyword} /var/log`
+
+

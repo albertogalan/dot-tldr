@@ -48,3 +48,8 @@
 `  HostName target`
 `  User target_user`
 `more examples https://rsync.samba.org/firewall.html`
+- connect to non standard ssh port
+
+`rsync -e "ssh -p 8022" -av host:/data`
+
+

@@ -25,3 +25,8 @@
 - Show all TCP IPv4 sockets locally connected on the subnet 192.168.0.0/16:
 
 `ss -4t src {{192.168/16}}`
+- monitor ports with ips
+
+`ss -nt ( dport = :80 or dport = :443 ) src 192.168.1.0/24 dst 151.101.1.69`
+
+
