@@ -19,3 +19,8 @@
 `npx json-server --watch db.json`
 
 
+- Create app
+
+`npx create-react-app my-app`
+
+
