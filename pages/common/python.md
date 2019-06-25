@@ -19,8 +19,7 @@
 `python -m {{module}} {{arguments}}`
 - Create a Virtual Environment
 
-`python -m virtualenv env`
-`python3 -m virtualenv env`
+`python3 -m venv env`
 `python source env/bin/activate`
 `deactivate`
 
