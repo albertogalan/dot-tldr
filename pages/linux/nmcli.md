@@ -44,3 +44,8 @@
 `nmcli device show wlp1s0`
 
 
+- Remove waiting network on boot
+
+`systemctl mask systemd-networkd-wait-online.service`
+
+

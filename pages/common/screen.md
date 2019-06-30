@@ -29,3 +29,8 @@
 - Kill a detached screen:
 
 `screen -X -S {{session_name}} quit`
+- Connect to RS232 /serial to a connected device
+
+`screen /dev/ttyUSB0`
+
+
