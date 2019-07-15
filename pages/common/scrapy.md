@@ -29,3 +29,8 @@
 - Open scrapy shell for url, which allows interaction with the page source in python shell (or ipython if available):
 
 `scrapy shell {{url}}`
+- Pausing and resuming crawls
+
+`scrapy crawl somespider -s JOBDIR=crawls/somespider-1`
+
+
