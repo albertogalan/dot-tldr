@@ -42,3 +42,8 @@
 `curl -X POST http://localhost:3003/lists -d @data.json`
 
 
+- graphql request see request on Firefox
+
+`curl -X POST http://localhost:8080/v1/graphql -H Content-Type: application/json --data  'request on firefox' >  result.json `
+
+
