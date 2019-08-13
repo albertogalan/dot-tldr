@@ -33,3 +33,8 @@
 - Save ip tables
 
 `iptables-save > /etc/network/iptables.rules`
+
+- Port redirection
+`sysctl net.ipv4.ip_forward=1`
+`iptables -t nat -A PREROUTING -p tcp -d MACHINE_B --dport 443 -j DNAT --to-destination MACHINE_C`
+`iptables -t nat -A POSTROUTING -s MACHINE_A -o INTERFACE_NAME -j MASQUERADE`
