@@ -13,3 +13,8 @@
 - Get service status:
 
 `sudo sv status {{path/to/service}}`
+- Status of a service
+
+sv s {{service}}
+
+

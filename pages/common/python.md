@@ -25,3 +25,7 @@
 
 
 
+- Install pipenv
+
+`pip install --user --upgrade pipenv`
+
