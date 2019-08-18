@@ -30,3 +30,9 @@
 - List open files in a directory:
 
 `lsof +D {{path/to/directory}}`
+- Find specific PID by open port
+
+`lsof -i :443`
+`look at ps also`
+
+

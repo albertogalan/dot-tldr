@@ -34,4 +34,8 @@
 `sudo lsof -i :{port}`
 `ps -aux | grep {process}`
 
-`ps -p port -o comm=`
+- Find process name using PID
+
+`ps -p 2053 -o comm=`
+
+
