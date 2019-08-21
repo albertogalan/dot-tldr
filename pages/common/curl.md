@@ -44,6 +44,19 @@
 
 - graphql request see request on Firefox
 
-`curl -X POST http://localhost:8080/v1/graphql -H Content-Type: application/json --data  'request on firefox' >  result.json `
+`curl -X POST http://localhost:8080/v1/graphql -H Content-Type: application/json --data '{"query":"{test {id}}"}' >  result.json `
 
+- POST REQUEST IN js , console
+
+`fetch('/graphql', {
+  method: 'POST',
+  headers: {
+   'Content-Type': 'application/json',
+   'Accept': 'application/json',
+  },
+  body: JSON.stringify({query: "{ hello }"})
+  })
+ .then(r => r.json())
+ .then(data => console.log('data returned:', data));
+`
 
