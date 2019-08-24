@@ -21,3 +21,9 @@
 - Execute commands from a file on the given database:
 
 `psql {{database}} -f {{file.sql}}`
+- Import/export database
+
+`psql -U username dbname < dbexport.pgsql`
+`psql -U username dbname > dbexport.pgsql`
+
+
