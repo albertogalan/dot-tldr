@@ -103,3 +103,8 @@ git worktree
 `git merge master`
 `vim file;git diff file;git add file`
 `git push`
+- Remove folder from git history
+
+`git filter-branch -f --index-filter git rm -rf --cached --ignore-unmatch FOLDERNAME -- --all`
+
+
