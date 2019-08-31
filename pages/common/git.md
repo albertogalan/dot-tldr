@@ -105,6 +105,11 @@ git worktree
 `git push`
 - Remove folder from git history
 
-`git filter-branch -f --index-filter git rm -rf --cached --ignore-unmatch FOLDERNAME -- --all`
+`git filter-branch -f --index-filter "git rm -rf --cached --ignore-unmatch FOLDERNAME" -- --all`
+
+
+- List biggest files on git history
+
+`git ls-files | xargs du -hs --threshold=1M`
 
 
