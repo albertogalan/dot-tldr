@@ -31,3 +31,8 @@
 `ip link set dev eno1 up`
 
 
+- Show gateway and routes
+
+`ip route show`
+
+

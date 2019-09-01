@@ -21,3 +21,8 @@
 - Wait for a given time (in seconds) before sending another packet to the same hop:
 
 `mtr -i {{seconds}} {{host}}`
+- Check health connection
+
+`mtr -c 10 -w -r host`
+
+

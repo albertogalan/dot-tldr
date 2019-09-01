@@ -113,3 +113,13 @@ git worktree
 `git ls-files | xargs du -hs --threshold=1M`
 
 
+- undo local file changes but NOT REMOVE last commit
+
+`git reset --hard`
+
+- undo local file changes and remove last commit
+`git reset --hard HEAD^`
+- KEEP local file changes and remove only last commit
+`git reset --soft HEAD^`
+
+
