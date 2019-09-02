@@ -78,3 +78,8 @@
 ` ProxyCommand ssh -q u2 nc -q0 %h 22`
 
 
+- Port forwarding all interfaces // mobile internet connection
+
+`ssh -L 0.0.0.0:4448:localhost:33485 -N localhost`
+
+
