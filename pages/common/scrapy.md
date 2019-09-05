@@ -34,9 +34,14 @@
 `scrapy crawl somespider -s JOBDIR=crawls/somespider-1`
 
 
-- Initialize general scraper
+- Images and Pdf extraction spiders
 
-`scrapy crawl pdf -L DEBUG --set JOBDIR=crawls/{job} -a domains={domain} -a urls=http://{url} --set FILES_STORE=../../data/files/{path}`
-`scrapy crawl img -L DEBUG --set JOBDIR=crawls/{job} -a domains={domain} -a urls=http://{url} --set IMAGES_STORE=../../data/files/{path}`
+`scrapy crawl pdf -L DEBUG --set JOBDIR=crawls/$f-01 -a domains=$f -a urls=http://$f --set FILES_STORE=../../data/files/$f --set LOG_FILE=logs/$f`
+`scrapy crawl img -L DEBUG --set JOBDIR=crawls/$f-01 -a domains=$f -a urls=http://$f --set IMAGES_STORE=../../data/files/$f --set LOG_FILE=logs/$f`
+
+
+- Company extract information spider
+
+`scrapy crawl company -L DEBUG --set JOBDIR=crawls/$f-3 --set LOG_FILE=logs/$f -a urls=http://$f`
 
 
