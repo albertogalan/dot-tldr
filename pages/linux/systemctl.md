@@ -34,3 +34,16 @@
 `systemctl list-unit-files grep enable runnin`
 
 
+- Log View
+
+`journalctl --since yesterday`
+
+
+
+> Description systemctl
+
+- Description Help
+
+systemctl xxx
+
+

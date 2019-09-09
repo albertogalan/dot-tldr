@@ -25,3 +25,8 @@
 - Show all messages by a specific executable:
 
 `journalctl {{path/to/executable}}`
+- Logs service real time
+
+`journalctl -u poems -f`
+
+
