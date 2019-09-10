@@ -9,3 +9,8 @@
 - Start mitmproxy bound to custom address and port:
 
 `mitmproxy -b {{ip_address}} -p {{port}}`
+- Execute script
+
+mitmproxy -s {{script.py}} -p 9092
+
+
