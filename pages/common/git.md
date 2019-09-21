@@ -123,3 +123,22 @@ git worktree
 `git reset --soft HEAD^`
 
 
+- best practice
+
+`https://codeinthehole.com/tips/pull-requests-and-other-good-practices-for-teams-using-github/
+git chekcout -b feature/branch
+git push -u origin feature/branch
+
+git pull origin dev
+git rebase dev
+
+git push
+
+merging
+git checkout master
+git merge feature/branch
+git branch -D feature/branch
+
+
+`
+
