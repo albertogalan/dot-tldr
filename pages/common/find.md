@@ -41,3 +41,8 @@
 `find ./ -name *md -exec grep -Hin logic /home/agalan/.tldr/tldr/pages/common/find.md ;`
 
 
+- inline shell script
+
+`find ./ -name *.jpg -exec sh -c 'a=$(basename $1);echo ${a%.*} sh {} \;
+`
+

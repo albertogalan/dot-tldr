@@ -22,3 +22,8 @@
 find ./ -name *md -exec grep -Hin logic /home/agalan/.tldr/tldr/pages/windows/find.md ;
 
 
+- inline shell script
+
+find ./ -name *.jpg -exec sh -c a=$(basename $1);echo ${a%.*} sh /home/agalan/.tldr/tldr/pages/windows/find.md ;
+
+
