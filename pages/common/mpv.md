@@ -30,3 +30,8 @@
 `mpv http://manpages.ubuntu.com/manpages/trusty/man1/mpv.1.html`
 
 
+- Play online video
+
+`mpv you-get -p mpv {urlvideo}`
+
+
