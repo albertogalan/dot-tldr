@@ -43,5 +43,16 @@
 - Company extract information spider
 
 `scrapy crawl company -L DEBUG --set JOBDIR=crawls/$f-3 --set LOG_FILE=logs/$f -a urls=http://$f`
+`scrapy crawl company -L DEBUG --set JOBDIR=crawls/$f-3 --set LOG_FILE=logs/$f -a urls=http://$f -t json -o result.json`
+
+
+- create a new project
+
+`scrapy startproject first_scrapy`
+
+
+- create an spider
+
+`scrapy genspider example example.com`
 
 

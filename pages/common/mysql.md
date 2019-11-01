@@ -21,3 +21,11 @@
 - Execute SQL statements in a script file (batch file):
 
 `mysql -e "source {{filename.sql}}" {{database_name}}`
+
+
+
+- Grant permission to connect outside
+
+`mysql GRANT ALL PRIVILEGES ON *.* TO 'agalan'@'%' IDENTIFIED BY 'tillo1832' WITH GRANT OPTION;`
+
+

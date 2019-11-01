@@ -49,6 +49,7 @@
 `lxc config set nestc1 security.nesting true`
 `lxc config set nestc1 security.privileged true`
 `sudo apt install docker.io`
+`sudo adduser agalan docker`
 
 - Push a file into container
 `lxc image export ubuntu18`
