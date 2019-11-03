@@ -142,3 +142,8 @@ git branch -D feature/branch
 
 `
 
+- Diff of all files in HEAD, after adding files ready to commit
+
+`git diff HEAD`
+
+
