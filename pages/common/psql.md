@@ -27,3 +27,8 @@
 `psql -U username dbname > dbexport.pgsql`
 
 
+- export to csv
+
+`psql -h postgres -U postgres tscrap -c Copy (select url,name from europages) to STDOUT with CSV HEADER DELIMITER ',';`
+
+
