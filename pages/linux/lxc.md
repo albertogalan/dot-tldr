@@ -58,3 +58,8 @@
 `lxc file import file path/file`
 
 
+- enter in bash
+
+`lxc exec crawler -- /bin/bash`
+
+
