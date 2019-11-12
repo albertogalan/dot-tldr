@@ -17,3 +17,9 @@
 - Horizontally append images:
 
 `convert {{image1.png}} {{image2.png}} {{image3.png}} +append {{image123.png}}`
+- Convert and resize pdf
+
+
+`convert -strip -interlace Plane -gaussian-blur 0.10 -quality 85% -adaptive-resize 40% Winery.pdf w3.pdf`
+
+
