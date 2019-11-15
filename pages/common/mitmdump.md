@@ -14,3 +14,8 @@
 - Replay a saved traffic file:
 
 `mitmdump -nc {{filename}}`
+- play python file
+
+`mitmdump -s {file.py} -p 9094`
+
+
