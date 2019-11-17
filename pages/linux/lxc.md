@@ -63,3 +63,13 @@
 `lxc exec crawler -- /bin/bash`
 
 
+- launch new images on remote
+
+lxc launch tuna-images:ubuntu/18.04 trig:u18
+
+
+- Launch new image on remote
+
+`lxc launch tuna:ubuntu/18.04 trig:u18`
+
+

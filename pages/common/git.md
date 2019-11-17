@@ -147,3 +147,8 @@ git branch -D feature/branch
 `git diff HEAD`
 
 
+- show commmit only files
+
+`git log --name-status`
+
+
