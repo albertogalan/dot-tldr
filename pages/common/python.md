@@ -29,3 +29,8 @@
 
 `pip install --user --upgrade pipenv`
 
+- Create virtual environment in python2
+
+`virtualenv env`
+
+
