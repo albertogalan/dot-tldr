@@ -14,3 +14,8 @@
 mitmproxy -s {{script.py}} -p 9092
 
 
+- Connect to proxy
+
+`mitmproxy --mode upstream:https://HOSTNAME:PORT --upstream-auth USER:PASSWORD`
+
+
