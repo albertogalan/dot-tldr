@@ -152,3 +152,8 @@ git branch -D feature/branch
 `git log --name-status`
 
 
+- Prune all files not related from .git history
+
+`git gc --prune=now --aggressive`
+
+
