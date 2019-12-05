@@ -43,3 +43,8 @@
 `grep -rsh {keyword} /var/log`
 
 
+- grep any link in website
+
+`grep cat file.html | grep -o (http|https)://(.){4,100}jpg `
+
+
