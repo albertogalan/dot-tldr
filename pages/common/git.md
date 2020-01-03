@@ -157,3 +157,8 @@ git branch -D feature/branch
 `git gc --prune=now --aggressive`
 
 
+- remove file from commit
+
+`git filter-branch --tree-filter rm -rf path/to/your/file HEAD`
+
+
