@@ -25,3 +25,8 @@
 - Change mountpoint for a filesystem:
 
 `zfs set mountpoint={{/my/mount/path}} {{pool_name/filesystem_name}}`
+- mount zfs
+
+`zfs set mountpoint=/media/usb2 crawled/data`
+
+
