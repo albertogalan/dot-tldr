@@ -73,3 +73,9 @@ lxc launch tuna-images:ubuntu/18.04 trig:u18
 `lxc launch tuna:ubuntu/18.04 trig:u18`
 
 
+- list images
+
+`lxc image list tuna:`
+`lxc image list images:`
+
+
