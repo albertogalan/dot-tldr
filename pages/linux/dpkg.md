@@ -26,3 +26,8 @@
 `dpkg https://www.tecmint.com/dpkg-command-examples/`
 
 
+- Unpack package
+
+`dpkg -x package.deb /home/agalan/tmp/`
+
+
