@@ -25,3 +25,13 @@
 - Upgrade installed packages to newest available versions:
 
 `yum upgrade`
+- list all repos
+
+`yum repolist --all`
+
+
+- find the package of an application
+
+`yum provides */xeyes`
+
+

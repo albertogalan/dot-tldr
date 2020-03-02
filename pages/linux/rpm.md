@@ -25,3 +25,13 @@
 - Show changed, missing and/or incorrectly installed files of matching packages:
 
 `rpm -Va '{{php-*}}'`
+- list files of a rpm
+
+`rpm -qlp {{some.rpm}}`
+
+
+- list installed packages
+
+`repoquery --installed -l httpd`
+
+
