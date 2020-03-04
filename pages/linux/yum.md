@@ -35,3 +35,13 @@
 `yum provides */xeyes`
 
 
+- list files in a package
+
+`repoquery --list {{package}}`
+
+
+- enable subcription repository
+
+`yum subscription-manager repos --enable rhel-*-optional-rpms`
+
+
