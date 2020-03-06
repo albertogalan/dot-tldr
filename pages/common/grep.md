@@ -48,3 +48,8 @@
 `grep cat file.html | grep -o (http|https)://(.){4,100}jpg `
 
 
+- Recursive match count per file
+
+`grep -src {keywords}`
+
+
