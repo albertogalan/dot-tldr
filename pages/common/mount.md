@@ -22,6 +22,6 @@
 
 `mount {{/my_drive}}`
 
-- Without size its mounted half of the RAM available on system #mount in permanently in fstab`
+- Without size its mounted half of the RAM available on system #mount in permanently in fstab
 
-`mount -t tmpfs -o size=100M,mode=0755 tmpfs  /var/www/www.example.com/cache 
+`mount -t tmpfs -o size=100M,mode=0755 tmpfs  /var/www/www.example.com/cache` 

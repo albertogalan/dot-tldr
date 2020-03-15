@@ -17,7 +17,7 @@
 
 - Use extended regular expressions (supporting `?`, `+`, `{}`, `()` and `|`):
 
-`grep -E {{^regex$}} {{path/to/file}}`
+`/bin/grep -E {{^regex$}} {{path/to/file}}`
 
 - Print 3 lines of [C]ontext around, [B]efore, or [A]fter each match:
 
@@ -51,5 +51,12 @@
 - Recursive match count per file
 
 `grep -src {keywords}`
+
+
+- grep with regex
+
+`/bin/grep -E`
+
+
 
 
