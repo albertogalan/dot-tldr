@@ -26,3 +26,8 @@
 - Execute a command using a custom inventory file:
 
 `ansible {{group}} -i {{inventory_file}} -m command -a '{{my command}}'`
+- list predefined variables in a host
+
+`ansible -m setup localhost`
+
+
