@@ -39,3 +39,8 @@
 `python3 -m http.server 8000`
 
 
+- Create virtual environment in python3
+
+`python3 -m venv env`
+
+
