@@ -56,3 +56,8 @@
 `scrapy genspider example example.com`
 
 
+- download images
+
+`scrapy crawl images2-splash -L ERROR -a url=$f -a tag=suit --set JOBDIR=data/crawl/{name}`
+
+

@@ -38,3 +38,8 @@
 `ffmpeg -i input.mkv -vf scale=iw/2:ih/2 output.mkv`
 
 
+- convert to black and white
+
+`ffmpeg -i {input} -vf hue=s=0 -acodec copy {output}
+
+

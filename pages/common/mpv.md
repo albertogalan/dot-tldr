@@ -35,3 +35,8 @@
 `mpv you-get -p mpv {urlvideo}`
 
 
+- torrent stream with mpv
+
+`pirate-get -C peerflix %s --mpv "film name"`
+
+
