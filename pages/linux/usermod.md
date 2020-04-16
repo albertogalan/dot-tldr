@@ -18,3 +18,8 @@
 `usermod -u 2000 foo`
 
 
+- add a group to a user
+
+`usermod -a -G qemu {user}`
+
+

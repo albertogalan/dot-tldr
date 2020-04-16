@@ -162,3 +162,8 @@ git branch -D feature/branch
 `git filter-branch --tree-filter rm -rf path/to/your/file HEAD`
 
 
+- Adding git identity to host
+
+`git eval SSH_AUTH_SOCK=/tmp/ssh-Y1rrO3kU7KW0/agent.24425; export SSH_AUTH_SOCK; SSH_AGENT_PID=24426; export SSH_AGENT_PID; echo Agent pid 24426;`
+
+
