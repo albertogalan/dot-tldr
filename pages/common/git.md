@@ -167,3 +167,11 @@ git branch -D feature/branch
 `git eval SSH_AUTH_SOCK=/tmp/ssh-Y1rrO3kU7KW0/agent.24425; export SSH_AUTH_SOCK; SSH_AGENT_PID=24426; export SSH_AGENT_PID; echo Agent pid 24426;`
 
 
+- config the username
+
+```
+git config --global user.name albertogalan
+git config --global user.email info@albertogalan.com
+git config --global credential.helper cache
+```
+
