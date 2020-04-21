@@ -29,3 +29,11 @@
 - Print the address of the master and cluster services:
 
 `kubectl cluster-info`
+- resources type
+
+`https://kubernetes.io/docs/reference/kubectl/overview/#resource-types`
+
+
+- quickly create single-container deployment and service
+
+`kubectl run;kubetcl expose`
