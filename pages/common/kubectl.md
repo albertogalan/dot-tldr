@@ -37,3 +37,35 @@
 - quickly create single-container deployment and service
 
 `kubectl run;kubetcl expose`
+- Create a registry secret
+
+`kubectl create secret generic myregistry --from-file=.dockerconfigjson=/home/agalan/.docker/config.json`
+
+
+- create a pod from image and access to console
+
+`kubectl run postgres-rhel4 --image=registry.redhat.io/rhel8/nginx-114 -it bash`
+
+
+- Run a Pod
+
+`kubectl run --generator=run-pod/v1 {name} --image={imagename}`
+
+
+- see previous logs , when pod is crash
+
+
+
+- access to shell
+
+`kubectl exec -it {pod-name} -- /bin/bash`
+
+
+- getting information as env variables and open ports
+```
+kubectl logs pod/{name}
+kubectl logs --previous pod/{name}
+kubectl describe deployment/{name}
+kubectl describe template openshift/{name}
+kubectl exec -it <pod_name> -- env  # get env variables
+```

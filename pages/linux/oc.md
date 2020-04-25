@@ -7,3 +7,8 @@
 `minishift oc-env`
 
 
+- see status of the namespace
+
+`oc status`
+
+
