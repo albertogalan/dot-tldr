@@ -12,3 +12,8 @@
 `oc status`
 
 
+- Search resources
+
+`oc api-resources`
+
+
