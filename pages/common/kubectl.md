@@ -68,4 +68,8 @@ kubectl logs --previous pod/{name}
 kubectl describe deployment/{name}
 kubectl describe template openshift/{name}
 kubectl exec -it <pod_name> -- env  # get env variables
+kubectl get events
 ```
+
+
+
