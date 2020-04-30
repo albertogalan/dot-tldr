@@ -33,3 +33,8 @@
 - Fetch and follow the logs of a container:
 
 `docker container logs -f {{container}}`
+- push image docker
+`docker login agalan75 ` 
+`NAME=name && docker build -t agalan75/$NAME .  && docker push agalan75/$NAME`
+
+
