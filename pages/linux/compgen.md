@@ -21,3 +21,8 @@
 - See all available commands/aliases starting with 'ls':
 
 `compgen -ac {{ls}}`
+- See function and aliases
+
+`type {{function}} `
+
+
