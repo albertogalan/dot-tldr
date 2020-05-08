@@ -38,3 +38,8 @@
 `NAME=name && docker build -t agalan75/$NAME .  && docker push agalan75/$NAME`
 
 
+- login into quay.io
+
+`docker login quay.io`
+
+

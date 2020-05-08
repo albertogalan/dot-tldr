@@ -13,3 +13,8 @@
 - Apply autocompletion without appending a space to the completed word:
 
 `complete -o nospace -F {{function}} {{command}}`
+- Autocomplet aws
+
+`complete -C /usr/local/bin/aws_completer aws`
+
+
