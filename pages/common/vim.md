@@ -34,3 +34,8 @@
 
 `yiw   Yank inner word (copy word under cursor, say "first"). `
 `
+- see logs in vim to a file
+
+`vim -V20`
+
+
