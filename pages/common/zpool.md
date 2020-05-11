@@ -33,3 +33,8 @@
 - Add a cache (L2ARC) device to a zpool:
 
 `zpool add {{pool_name}} cache {{cache_disk}}`
+- Import zpool disks
+
+`zpool import crawled`
+
+
