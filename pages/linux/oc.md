@@ -33,3 +33,11 @@
 
     `oc patch quota logon-eu-dev-quota -p '{"spec":{"hard":{"persistentvolumeclaims": "15", "pods": "20", "requests.cpu": "32", "requests.memory": "256Gi", "requests.storage": "50Gi"}}}' -n logon-eu-dev`
 
+- Applying patching
+
+`oc patch deployment myapp-deployment '{"service":"ddd ...."}`
+`oc patch quota myapp-quota '{"spec":"hard....."}`
+`oc patch limitrange myapp-limitrange '{"spec":{"limits"....}}'
+
+
+
