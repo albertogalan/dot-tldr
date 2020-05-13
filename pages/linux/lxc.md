@@ -79,3 +79,8 @@ lxc launch tuna-images:ubuntu/18.04 trig:u18
 `lxc image list images:`
 
 
+- Copy container betten profile,, int his case each profile has different storage
+
+`lxc copy cont1 cont2 -p profile1 -p profile2`
+
+

@@ -32,7 +32,7 @@
 
 - Play online video
 
-`mpv you-get -p mpv {urlvideo}`
+`you-get -p mpv {urlvideo}`
 
 
 - torrent stream with mpv

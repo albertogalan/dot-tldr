@@ -1,8 +1,8 @@
 
 > Description lxd
 
-- Description Help
+- restart services
 
-lxd xxx
+`sudo systemctl restart lxd && sudo systemctl restart lxd-host-dns.service`
 
 
