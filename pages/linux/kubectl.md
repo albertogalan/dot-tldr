@@ -11,3 +11,8 @@ kubectl xxx
 kubectl get events
 
 
+- Monitor
+
+kubectl export HTTPS_PROXY=:5000
+
+

@@ -73,3 +73,8 @@ kubectl get events
 
 
 
+- Monitor kubetl api requests
+`need to trus CA of mitmproxy`
+`mitmproxy -p 5000 --ssl; export HTTPS_PROXY=:5000; kubectl get deployment`
+
+

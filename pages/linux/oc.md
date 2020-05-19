@@ -37,7 +37,12 @@
 
 `oc patch deployment myapp-deployment '{"service":"ddd ...."}`
 `oc patch quota myapp-quota '{"spec":"hard....."}`
-`oc patch limitrange myapp-limitrange '{"spec":{"limits"....}}'
+`oc patch limitrange myapp-limitrange '{"spec":{"limits"....}}`
 
+
+
+- installed operators
+
+`oc get packagemanifests -n openshift-marketplace`
 
 
