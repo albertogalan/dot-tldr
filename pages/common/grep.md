@@ -60,3 +60,8 @@
 
 
 
+- grep pid
+
+`pgrep -a ing`
+
+
