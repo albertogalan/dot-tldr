@@ -175,3 +175,8 @@ git config --global user.email info@albertogalan.com
 git config --global credential.helper cache
 ```
 
+- List users on a repository
+
+`git shortlog -e -s -n`
+
+
