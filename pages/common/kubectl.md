@@ -78,3 +78,9 @@ kubectl get events
 `mitmproxy -p 5000 --ssl; export HTTPS_PROXY=:5000; kubectl get deployment`
 
 
+- exposing services
+
+`kubectl expose rc nginx --port=80 --target-port=8000`
+`kubectl expose rc kubia --type=LoadBalancer --name kubia-http service kubia-http exposed`
+
+
