@@ -46,3 +46,13 @@
 `oc get packagemanifests -n openshift-marketplace`
 
 
+- troubleshooting
+
+`https://www.openshift.com/blog/troubleshooting-openshift-internal-networking`
+
+
+- Build strategies
+
+`https://docs.openshift.com/container-platform/4.2/builds/build-strategies.html`
+
+

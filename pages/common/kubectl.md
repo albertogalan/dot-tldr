@@ -90,3 +90,8 @@ kubectl get events
 `kubectl create secret generic regcred --from-file=.dockerconfigjson=/home/agalan/.docker/config.json --type=kubernetes.io/dockerconfigjson`
 
 
+- List of resources type
+
+`kubectl api-resources`
+
+
