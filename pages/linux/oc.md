@@ -17,7 +17,7 @@
 `oc api-resources`
 
 
-- Gives persmission to user  to deploy on those projects
+- Gives permission to user  to deploy on those projects
 
 `oc policy add-role-to-user edit system:serviceaccount:{{logon-cicd:jenkins}} -n {{project}}`
 
