@@ -56,3 +56,13 @@
 `https://docs.openshift.com/container-platform/4.2/builds/build-strategies.html`
 
 
+- rollout
+
+oc rollout history
+
+
+- rollout cancel so rollback
+
+oc rollout cancel dc/jenkins
+
+
