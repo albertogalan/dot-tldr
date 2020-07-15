@@ -66,3 +66,8 @@ oc rollout history
 oc rollout cancel dc/jenkins
 
 
+- get nodes
+
+`oc get pod -o custom-columns=POD:.metadata.name,NODE:.spec.nodeName`
+
+
