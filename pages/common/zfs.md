@@ -30,3 +30,8 @@
 `zfs set mountpoint=/media/usb2 crawled/data`
 
 
+- List of snapshots
+
+`zfs list -t snapshot`
+
+
