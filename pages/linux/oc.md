@@ -71,3 +71,14 @@ oc rollout cancel dc/jenkins
 `oc get pod -o custom-columns=POD:.metadata.name,NODE:.spec.nodeName`
 
 
+- Operators
+
+`Create a operator groups`
+`Create a subcription`
+`Verify operator is installed`
+`oc get pod -n namespace`
+`Most of cases Create an instance`
+
+`oc describe packagemanifests.packages.operators.coreos.com cluster-logging -n openshift-marketplace`
+
+
