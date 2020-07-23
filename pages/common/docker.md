@@ -43,3 +43,9 @@
 `docker login quay.io`
 
 
+- Create persistent volume
+
+`docker volume create --name nexus-data`
+`docker run -d  --name nexus -v /some/dir/nexus-data:/nexus-data  sonatype/nexus3`
+
+
