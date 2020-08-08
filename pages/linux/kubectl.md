@@ -41,3 +41,8 @@ kubectl create secret generic regcred --from-file=.dockerconfigjson=/home/agalan
 kubectl api-resources
 
 
+- Deployment
+
+kubectl apply -f https://k8s.io/examples/application/nginx-with-request.yaml
+
+

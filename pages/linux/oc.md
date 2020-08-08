@@ -35,9 +35,11 @@
 
 - Applying patching
 
-`oc patch deployment myapp-deployment '{"service":"ddd ...."}`
-`oc patch quota myapp-quota '{"spec":"hard....."}`
 `oc patch limitrange myapp-limitrange '{"spec":{"limits"....}}`
+
+- Output patch when edit
+
+`oc edit dc hello-openshift --output-patch`
 
 
 
@@ -80,5 +82,21 @@ oc rollout cancel dc/jenkins
 `Most of cases Create an instance`
 
 `oc describe packagemanifests.packages.operators.coreos.com cluster-logging -n openshift-marketplace`
+
+
+
+- Get last configuration applied
+
+`oc apply view-last-applied -f simple3-dc.yaml`
+
+
+- Config of a namespace
+
+`oc config view`
+
+
+- Resource Manifest
+
+`oc explain resource`
 
 
