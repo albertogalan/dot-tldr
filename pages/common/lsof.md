@@ -36,3 +36,8 @@
 `look at ps also`
 
 
+- search process by port
+
+`lsof sudo ss -tulpn | grep 10250`
+
+

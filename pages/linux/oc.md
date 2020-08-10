@@ -100,3 +100,21 @@ oc rollout cancel dc/jenkins
 `oc explain resource`
 
 
+
+> Description oc
+
+- Description Help
+
+oc xxx
+
+
+- Debuging pods
+
+`oc debug nexus4-554b56875b-t8lqx  --image=registry.access.redhat.com/rhel7/rhel-tools`
+
+
+- Info Image -- ports etc
+
+`oc image info sonatype/nexus3:latest`
+
+
