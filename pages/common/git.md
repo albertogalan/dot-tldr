@@ -180,3 +180,9 @@ git config --global credential.helper cache
 `git shortlog -e -s -n`
 
 
+- Mirroring a repository , clone with all the branches
+
+# git mirroring
+https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/duplicating-a-repository
+
+
